@@ -12,7 +12,6 @@ ol {
 body {
   font-family: Montserrat, sans-serif; }
 
-/*Честно, не разобралась как делать @media запросы, поэтому адаптивность на 50%/ */
 /*не сделала бургер меню, так как не поняла с выше указанным/ */
 .top-nav {
   padding: 30px; }
@@ -170,8 +169,9 @@ ul {
   background-size: cover;
   background-color: #4b3b4e;
   width: 100%;
-  height: 100vh;
-  text-align: center; }
+  height: 100%;
+  text-align: center;
+  padding-bottom: 49px; }
   .testimonials h2 {
     height: 48px;
     color: #fff;
@@ -200,24 +200,28 @@ ul {
   opacity: 0.2;
   margin: 0 auto; }
 
+.test {
+  padding-top: 80px; }
+
 .pricing {
   background: url("../img/Layer_2-1.png") no-repeat center center;
   background-size: cover;
   background-color: #4b3b4e;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   padding-top: 30px; }
   .pricing h2 {
     height: 48px;
     color: #d4d4d4;
     font-size: 48px;
     font-weight: 700;
-    line-height: 20.45px;
     text-align: center;
     margin-bottom: 120px; }
 
-.wrap:hover {
-  transform: scale(1.2); }
+.wrap {
+  margin-bottom: 13px; }
+  .wrap:hover {
+    transform: scale(1.2); }
 
 .prising__item h4 {
   color: #fff;
@@ -273,6 +277,17 @@ ul {
 .txt {
   color: #d4d4d4;
   font-weight: 700; }
+
+.pris__end {
+  opacity: 0.8;
+  color: #a291a5;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  padding-top: 133px;
+  padding-bottom: 77px; }
 
 .suscribe {
   background-color: #f4f4f4;
